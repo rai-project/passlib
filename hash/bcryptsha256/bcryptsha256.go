@@ -4,8 +4,8 @@
 // limitation irrelevant; although of course it is less compatible.
 package bcryptsha256
 
-import "gopkg.in/hlandau/passlib.v1/abstract"
-import "gopkg.in/hlandau/passlib.v1/hash/bcrypt"
+import "github.com/rai-project/passlib/abstract"
+import "github.com/rai-project/passlib/hash/bcrypt"
 import "encoding/base64"
 import "crypto/sha256"
 import "strings"

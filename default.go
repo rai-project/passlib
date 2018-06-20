@@ -2,13 +2,13 @@ package passlib
 
 import (
 	"fmt"
-	"gopkg.in/hlandau/passlib.v1/abstract"
-	"gopkg.in/hlandau/passlib.v1/hash/argon2"
-	"gopkg.in/hlandau/passlib.v1/hash/bcrypt"
-	"gopkg.in/hlandau/passlib.v1/hash/bcryptsha256"
-	"gopkg.in/hlandau/passlib.v1/hash/pbkdf2"
-	"gopkg.in/hlandau/passlib.v1/hash/scrypt"
-	"gopkg.in/hlandau/passlib.v1/hash/sha2crypt"
+	"github.com/rai-project/passlib/abstract"
+	"github.com/rai-project/passlib/hash/argon2"
+	"github.com/rai-project/passlib/hash/bcrypt"
+	"github.com/rai-project/passlib/hash/bcryptsha256"
+	"github.com/rai-project/passlib/hash/pbkdf2"
+	"github.com/rai-project/passlib/hash/scrypt"
+	"github.com/rai-project/passlib/hash/sha2crypt"
 	"time"
 )
 
