@@ -3,5 +3,5 @@
 package raw
 
 const (
-	MaxRounds = 0xffff
+	MaxRounds int64 = 0xffff
 )

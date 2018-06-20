@@ -46,7 +46,7 @@ func Parse(stub string) (hashFunc func() hash.Hash, rounds int, salt []byte, has
 	}
 	rounds = int(n)
 
-	if rounds < MinRounds || rounds > MaxRounds {
+	if rounds < MinRounds || rounds > int(MaxRounds) {
 		err = ErrInvalidRounds
 		return
 	}
