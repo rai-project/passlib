@@ -6,7 +6,7 @@ go:
   - tip
 sudo: false
 install:
-  - mkdir -p $HOME/gopath/src/gopkg.in/hlandau/
+  - mkdir -p $HOME/gopath/src/github.com/rai-project/
   - ln -s $TRAVIS_BUILD_DIR $HOME/gopath/src/github.com/rai-project/passlib
   - cd $HOME/gopath/src/github.com/rai-project/passlib
   - go get

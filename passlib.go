@@ -16,7 +16,7 @@
 package passlib // import "github.com/rai-project/passlib"
 
 import (
-	"gopkg.in/hlandau/easymetric.v1/cexp"
+	"github.com/rai-project/easymetric.v1/cexp"
 	"github.com/rai-project/passlib/abstract"
 )
 
