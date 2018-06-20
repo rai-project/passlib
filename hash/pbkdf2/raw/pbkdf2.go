@@ -22,7 +22,7 @@ func Hash(password, salt []byte, rounds int, hf func() hash.Hash) (hash string) 
 
 func init() {
 	if strconv.IntSize == 4 {
-		MaxRounds = math.MaxInt64
+		MaxRounds = math.MaxInt32
 	} else {
 		MaxRounds = math.MaxInt64
 	}
