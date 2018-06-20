@@ -16,8 +16,8 @@
 package passlib // import "github.com/rai-project/passlib"
 
 import (
-	"github.com/rai-project/easymetric.v1/cexp"
 	"github.com/rai-project/passlib/abstract"
+	"gopkg.in/hlandau/easymetric.v1/cexp"
 )
 
 var cHashCalls = cexp.NewCounter("passlib.ctx.hashCalls")
