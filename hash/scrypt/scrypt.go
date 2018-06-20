@@ -7,8 +7,8 @@ import "expvar"
 import "strings"
 import "crypto/rand"
 import "encoding/base64"
-import "gopkg.in/hlandau/passlib.v1/hash/scrypt/raw"
-import "gopkg.in/hlandau/passlib.v1/abstract"
+import "github.com/rai-project/passlib/hash/scrypt/raw"
+import "github.com/rai-project/passlib/abstract"
 
 var cScryptSHA256HashCalls = expvar.NewInt("passlib.scryptsha256.hashCalls")
 var cScryptSHA256VerifyCalls = expvar.NewInt("passlib.scryptsha256.verifyCalls")

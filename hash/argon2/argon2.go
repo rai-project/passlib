@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"golang.org/x/crypto/argon2"
-	"gopkg.in/hlandau/passlib.v1/abstract"
-	"gopkg.in/hlandau/passlib.v1/hash/argon2/raw"
+	"github.com/rai-project/passlib/abstract"
+	"github.com/rai-project/passlib/hash/argon2/raw"
 )
 
 // An implementation of Scheme performing argon2 hashing.

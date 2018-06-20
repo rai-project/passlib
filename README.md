@@ -1,7 +1,7 @@
 passlib for go
 ==============
 
-[![GoDoc](https://godoc.org/gopkg.in/hlandau/passlib.v1?status.svg)](https://godoc.org/gopkg.in/hlandau/passlib.v1) [![Build Status](https://travis-ci.org/hlandau/passlib.svg?branch=master)](https://travis-ci.org/hlandau/passlib)
+[![GoDoc](https://godoc.org/github.com/rai-project/passlib?status.svg)](https://godoc.org/github.com/rai-project/passlib) [![Build Status](https://travis-ci.org/hlandau/passlib.svg?branch=master)](https://travis-ci.org/hlandau/passlib)
 
 [Python's passlib](https://pythonhosted.org/passlib/) is quite an amazing
 library. I'm not sure there's a password library in existence with more thought
@@ -44,7 +44,7 @@ func Verify(password, hash string) (newHash string, err error)
 Here's a rough skeleton of typical usage.
 
 ```go
-import "gopkg.in/hlandau/passlib.v1"
+import "github.com/rai-project/passlib"
 
 func RegisterUser() {
   (...)
