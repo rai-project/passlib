@@ -2,14 +2,14 @@ package passlib
 
 import (
 	"fmt"
+	"time"
+
 	"github.com/rai-project/passlib/abstract"
 	"github.com/rai-project/passlib/hash/argon2"
 	"github.com/rai-project/passlib/hash/bcrypt"
 	"github.com/rai-project/passlib/hash/bcryptsha256"
-	"github.com/rai-project/passlib/hash/pbkdf2"
 	"github.com/rai-project/passlib/hash/scrypt"
 	"github.com/rai-project/passlib/hash/sha2crypt"
-	"time"
 )
 
 // This is the first and default set of defaults used by passlib. It prefers
@@ -33,10 +33,7 @@ var defaultSchemes20160922 = []abstract.Scheme{
 	sha2crypt.Crypter512,
 	sha2crypt.Crypter256,
 	bcryptsha256.Crypter,
-	pbkdf2.SHA512Crypter,
-	pbkdf2.SHA256Crypter,
 	bcrypt.Crypter,
-	pbkdf2.SHA1Crypter,
 }
 
 // Default schemes as of 2018-06-01.
@@ -46,10 +43,7 @@ var defaultSchemes20180601 = []abstract.Scheme{
 	sha2crypt.Crypter512,
 	sha2crypt.Crypter256,
 	bcryptsha256.Crypter,
-	pbkdf2.SHA512Crypter,
-	pbkdf2.SHA256Crypter,
 	bcrypt.Crypter,
-	pbkdf2.SHA1Crypter,
 }
 
 // The default schemes, most preferred first. The first scheme will be used to
