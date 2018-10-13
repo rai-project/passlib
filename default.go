@@ -64,7 +64,7 @@ var defaultSchemes20180601 = []abstract.Scheme{
 var DefaultSchemes []abstract.Scheme
 
 func init() {
-	DefaultSchemes = defaultSchemes20160922
+	DefaultSchemes = defaultSchemes20180601
 }
 
 // It is strongly recommended that you call this function like this before using passlib:
